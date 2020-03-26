@@ -16,6 +16,14 @@ atau bisa lihat di https://www.youtube.com/playlist?list=PL3UaiPxY2iuo0Bq-A_JrQg
 9. Delete Data https://youtu.be/LsfKgJqwIyg
 10. Http Method https://youtu.be/E1_Cir6v2dQ
 
+## Running On DOCKER
+kamu juga bisa menjalankan service ini tanpa install kebutuhan jdk,
+melalui docker. syaratnya sudah ter-install docker di komputer kamu.
+
+``docker pull johnnyaustor/jap-spring-crud:tutorial-youtube``
+
+``docker run --publish 8080:8080 johnnyaustor/jap-spring-crud:tutorial-youtube``
+
 ## Endpoint
 POST `http://localhost:8080/employee`
 
