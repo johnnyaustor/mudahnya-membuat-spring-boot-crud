@@ -16,4 +16,16 @@ atau bisa lihat di https://www.youtube.com/playlist?list=PL3UaiPxY2iuo0Bq-A_JrQg
 9. Delete Data https://youtu.be/LsfKgJqwIyg
 10. Http Method https://youtu.be/E1_Cir6v2dQ
 
-  
+## Endpoint
+POST `http://localhost:8080/employee`
+
+GET `http://localhost:8080/employee`
+
+GET `http://localhost:8080/employee/{id}`
+
+PUT `http://localhost:8080/employee/{id}`
+
+DELETE `http://localhost:8080/employee/{id}`
+
+## Body Required
+`` { id:number, firstName:string, lastName:string } ``
